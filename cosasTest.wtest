@@ -3,7 +3,10 @@ import cosas.*
 describe "group of test for cosas" {
 
   test "first test" {
-    assert.that(true)
-  }
-
-}
+    embalajeDeSeguridad.cambiarCosaAdentro(residuosRadioactivos)
+    residuosRadioactivos.peso(30)
+    contenedorPortuario.agregar(bumblebee)
+    contenedorPortuario.agregar(bumblebee)
+    contenedorPortuario.agregar(bumblebee)
+    assert.that(contenedorPortuario.peso()> 30)
+  }}
